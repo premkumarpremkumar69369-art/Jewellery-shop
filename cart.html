@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEWLLERY SHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    .product-quantity{
+        height:30%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light  text-center border-bottom">
+    <div class="container-fluid justify-content-between d-block">
+        <img src="logo.png" class="img-fluid ms-5  rounded-circle" style="width:50px; height:50px;" alt="image">
+        <a class="navbar-brand " href="#">AARTHI THANGA MALIGAI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end border-top mt-1" id="navbarSupportedContent">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="🔎︎Search Any Jewels" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                <li class="nav-item text-end">
+                    <a class="nav-link " aria-current="page" href="#">Log In🔒</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">🛒</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">🛍️</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                <li class="nav-item text-end">
+                    <a class="nav-link" aria-current="page" href="index.html">ALL JEWELS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GOLD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SILVER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PLATINIUM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DIAMOND</a>
+                </li>
+                <li class="nav-item">
+             
+                <li class="nav-item">
+                    <a class="nav-link" href="#">COLLECTIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="offer.html">OFFERS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">PRODUCTS</a>
+                </li>
+                <a class="btn bg-info mt-1" href="">BOOK AN APPOINTMENT</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex ">
+    <div class="container bg-light w-50 mt-5 text-center rounded">
+        <div class="cart-header d-flex  fs-5 fw-bold mt-2">
+            <div class="cart-headings ms-5">
+                Product Image
+            </div>
+            <div class="cart-headings ms-5">
+                Product Name
+            </div>
+            <div class="cart-headings ms-5">
+                Product Price
+            </div>
+            <div class="cart-headings ms-5">
+                Product Quantity
+            </div>
+        </div>
+        <div class="cart-body d-flex gap-5 mt-3 ms-5 text-center border-top">
+            <div class="cart-image">
+                <img src="gold chain.jpg" class="image-fluid" style="width: 50%;" alt="image">
+            </div>
+            <div class="cart-bodys d-flex mt-5  gap-5">
+                <p class="product-name w-5 ms-5">CHICKEN</p>
+                <div class="price-section ms-5">
+                    <p class="product-price">₹199</p>
+                    <a class="product-remove text-light" href="">Remove</a>
+                </div>
+                <div class="cart-buttons d-flex ms-5">
+                    <button class="product-quantity">+</button>
+                    <p class="product-number">1</p>
+                    <button class="product-quantity">-</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-body d-flex gap-5 ms-5 text-center border-top">
+            <div class="cart-image">
+                <img src="silver anklets.jpg" class="image-fluid mt-3" style="width: 50%;"  alt="image">
+            </div>
+            <div class="cart-body d-flex mt-5  gap-5">
+                <p class="product-name ms-5 w-5">MUTTON</p>
+                <div class="price-section ms-5">
+                    <p class="product-price">₹699</p>
+                    <a class="product-remove text-light" href="">Remove</a>
+                </div>
+                <div class="cart-buttons d-flex ms-5">
+                    <button class="product-quantity">+</button>
+                    <p class="product-number">1</p>
+                    <button class="product-quantity">-</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-body d-flex gap-5 ms-5 text-center border-top">
+            <div class="cart-image">
+                <img src="natural.jpg" class="image-fluides mt-3" style="width: 50%;" alt="image">
+            </div>
+            <div class="cart-body d-flex mt-5 ms-5 gap-5">
+                <p class="product-name w-5">FISH`</p>
+                <div class="price-section ms-5">
+                    <p class="product-price">₹499</p>
+                    <a class="product-remove text-light" href="">Remove</a>
+                </div>
+                <div class="cart-buttons d-flex ms-5">
+                    <button class="product-quantity">+</button>
+                    <p class="product-number">1</p>
+                    <button class="product-quantity">-</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light w-25 mt-5 me-5 rounded">
+        <div class="summary-section">
+            <h2 class="order-summary text-center mt-5">Order Summary</h2>
+            <div class="summary-row text-center lh-lg mt-3">
+                <span>Subtotal</span>
+                <span>$999</span>
+            </div>
+            <div class="summary-row text-center lh-lg mt-3">
+                <span>shipping</span>
+                <span>$1499</span>
+            </div>
+            <div class="summary-row text-center lh-lg mt-3">
+                <span>Discount</span>
+                <span>$-499</span>
+            </div>
+            <div class="total text-center lh-lg border-top mt-5">
+                <span>Total</span>
+                <span>1000</span>
+            </div>
+            <button class="checkout  w-100 text-center mt-5">Proceed to checkout</button>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
